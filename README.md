@@ -89,8 +89,8 @@ Scaler.fit(X_train)
 X_train1=Scaler.transform(X_train)
 
 ai_brain=Sequential([
-   # Dense(12,input_dim=1,activation='relu'),
-    Dense(8,activation='relu'),
+   # Dense(8,input_dim=1,activation='relu'),
+    Dense(16,activation='relu'),
     Dense(1)
 ])
 
